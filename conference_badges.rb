@@ -26,6 +26,6 @@ def printer(names)
     puts speaker
   end
   
-  room_assignments = assign_rooms(names)
-  room_assignments.each do ||
+  #room_assignments = assign_rooms(names)
+  #room_assignments.each do ||
 end
