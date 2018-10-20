@@ -25,6 +25,7 @@ def printer(names)
   speakers.each do |speaker|
     puts speaker
   end
-  room_assignments = assign_rooms(names)
-  puts room_assignments.flatten
+  
+ # room_assignments = assign_rooms(names)
+ # room_assignments.each do ||
 end
