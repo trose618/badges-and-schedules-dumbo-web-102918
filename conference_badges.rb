@@ -22,7 +22,9 @@ end
 
 def printer(names)
   speakers = batch_badge_creator(names)
-  puts speakers.flatten
+  speakers.each do |speaker|
+    puts speaker
+  end
   room_assignments = assign_rooms(names)
   puts room_assignments.flatten
 end
